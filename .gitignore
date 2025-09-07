@@ -1,0 +1,104 @@
+# Compiled executables
+openmp_sort
+fastflow_sort
+hybrid_sort
+hybrid_sort_alt
+generate_records
+verify_sort
+
+# Object files
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+
+# Compiled Dynamic libraries
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Test data and results
+test_data/
+test_output/
+benchmark_results/
+*.bin
+sorted_*.bin
+output_*.bin
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+\#*#
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.orig
+.DS_Store
+Thumbs.db
+
+# Logs and output files
+*.log
+*.out
+core.*
+vgcore.*
+
+# Cluster job files
+slurm-*.out
+*.sbatch
+
+# CMake files (if any)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+
+# Profiling data
+*.prof
+gmon.out
+
+# Documentation build
+docs/_build/
+*.pdf
+*.aux
+*.log
+*.synctex.gz
+*.toc
+*.fdb_latexmk
+*.fls
+
+# Backup files
+*.bak
+*.backup
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Archive files for testing
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# Performance analysis files
+perf.data*
+*.perf
+
+# MPI hostfiles
+hostfile
+hosts
