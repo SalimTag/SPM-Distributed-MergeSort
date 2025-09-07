@@ -2,9 +2,12 @@
 # Author: Salim Tagemouati
 # University of Pisa - SPM Course
 
-# Compiler settings
-CXX = g++
-MPICXX = mpicxx
+# Include local configuration if available
+-include Makefile.config
+
+# Default compiler settings
+CXX ?= g++
+MPICXX ?= mpicxx
 CXXFLAGS = -std=c++17 -O3 -Wall -Wextra
 OMPFLAGS = -fopenmp
 FFFLAGS = -I./fastflow -pthread
